@@ -35,7 +35,16 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  //FIXME 测试销毁时取消下方注释
+  // beforeDestroy() {
+  //   //销毁前
+  //   console.log('beforeDestroy')
+  // },
+  // destroyed() {
+  //   //销毁
+  //   console.log('destroyed')
+  // }
 }
 </script>
 
