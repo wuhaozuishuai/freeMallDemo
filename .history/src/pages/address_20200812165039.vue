@@ -240,8 +240,6 @@
                 }
             },
             //设置默认地址
-
-            
             checkAddress(id){
                 this.addressList.map((item)=>{
                    if (id === item.addressId) {

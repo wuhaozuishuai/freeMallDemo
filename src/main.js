@@ -3,6 +3,8 @@ import App from './App.vue'
 import axios from  'axios'
 import VueAxios from "vue-axios";
 import router from './router'
+import './assets/css/base.css'
+import './assets/css/index.css'
 Vue.use(VueAxios,axios);
 //提示开关
 Vue.config.productionTip = false
